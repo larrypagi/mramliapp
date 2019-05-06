@@ -13,5 +13,5 @@
 #' }
 #'
 run_app <- function() {
-  shiny::shinyApp(ui = app_ui(), server = app_server)
+  shiny::shinyApp(ui = mramliapp::app_ui(), server = mramliapp::app_server)
 }
